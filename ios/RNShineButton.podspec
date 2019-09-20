@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.library        = 'z'
   s.preserve_paths = '*.js'
   s.source       = { :git => "https://github.com/author/RNShineButton.git", :tag => "master" }
-  s.source_files  = "RNShineButton/**/*.{h,m}"
+  s.source_files  = "**/*.{h,m}"
   s.requires_arc = true
   s.static_framework = true
 
